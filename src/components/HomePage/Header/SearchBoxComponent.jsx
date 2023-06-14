@@ -25,4 +25,4 @@ function SearchBoxComponent() {
 }
 
 
-export default  memo(SearchBoxComponent);
+export default  SearchBoxComponent;

@@ -31,10 +31,10 @@ function SiteTitileComponent() {
             <IconComponent top="-15%" left="0%" color="#0088cc">
                 <SiLinkedin  className='animation1' />
             </IconComponent>
-            <IconComponent top="15%" left="10%" color="#0088cc">
+            <IconComponent top="15%" left="10%" color=" rgb(255, 215, 0)">
                 <SiAdobephotoshop  className='animation2' />
             </IconComponent>
-            <IconComponent top="45%" left="0%" color="#0088cc">
+            <IconComponent top="45%" left="0%" color="#7BCBCB">
                 <SiReact  className='animation2' />
             </IconComponent>
 
@@ -42,4 +42,4 @@ function SiteTitileComponent() {
     )
 }
 
-export default memo(SiteTitileComponent);
+export default SiteTitileComponent;
