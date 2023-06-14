@@ -9,4 +9,4 @@ function IconComponent(props) {
 }
 
 
-export default  memo(IconComponent);
+export default  IconComponent;

@@ -17,4 +17,4 @@ function NavbarAuthButtonComponent() {
     )
 }
 
-export default memo(NavbarAuthButtonComponent);
+export default NavbarAuthButtonComponent;

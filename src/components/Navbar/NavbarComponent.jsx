@@ -19,4 +19,4 @@ function NavbarComponent() {
 }
 
 
-export default memo(NavbarComponent);
+export default NavbarComponent;
