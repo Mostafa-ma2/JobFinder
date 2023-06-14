@@ -1,0 +1,126 @@
+.site-title {
+    text-align: -webkit-center;
+}
+
+.site-title .title {
+    text-align: -webkit-center;
+    margin-top: 220px;
+}
+
+.site-title .title h1 {
+    font-size: -webkit-xxx-large;
+    font-weight: bold;
+    line-height: initial;
+}
+
+.site-title .title p {
+    color: gray;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.searchBox {
+    padding: 10px;
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+.searchBox input {
+    border: 0px;
+    padding: 10px 43px 10px 25px;
+}
+
+.searchBox .search-job input {
+    border-left: 1px solid #f6f6f6;
+}
+
+.searchBox .search-job .search-icon {
+    transform: rotateZ(66deg);
+}
+
+.searchBox svg {
+    right: 9px;
+    top: 27%;
+    font-size: larger;
+}
+
+.searchBox .button-register span {
+    z-index: 99;
+}
+
+.searchBox .button-register {
+    font-weight: 800;
+    border: .5px solid var(--purple-color);
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    display: inline-table;
+}
+
+.searchBox .button-register::after {
+    content: "";
+    background-color: var(--purple-color);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 3px;
+    -webkit-transition: 500ms all cubic-bezier(0.39, 0.58, 0.57, 1);
+    transition: 500ms all cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.searchBox .button-register:hover {
+    color: var(--purple-color);
+}
+
+.searchBox .button-register:hover:after {
+    width: 0%;
+}
+
+.site-title .icon svg {
+    font-size: x-large;
+    border: 1px solid;
+    border-radius: 99px;
+    padding: 10px;
+}
+
+.animation1 {
+    animation: circle 5s infinite linear;
+}
+
+@keyframes circle {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(calc(100% - 70px), 0);
+  }
+  50% {
+    transform: translate(calc(100% - 70px), calc(100% - 70px));
+  }
+  75% {
+    transform: translate(0, calc(100% - 70px));
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.animation2 {
+    animation: wave 4s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(calc(100% - 60px), calc(100% - 60px));
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
