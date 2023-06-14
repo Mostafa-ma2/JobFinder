@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { memo } from 'react'
 
-export default function IconComponent(props) {
+function IconComponent(props) {
     return (
         <div className='icon position-absolute' style={{ top: props.top, left: props.left, color: props.color }}>
             {props.children}
         </div>
     )
 }
+
+
+export default  memo(IconComponent);

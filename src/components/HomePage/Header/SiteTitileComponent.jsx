@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import '../../../assets/css/HomePage/siteTitle.css'
 import SearchBoxComponent from './SearchBoxComponent';
 import IconComponent from './IconComponent';
@@ -8,7 +8,7 @@ import { RiInstagramFill } from 'react-icons/ri'
 
 
 
-export default function SiteTitileComponent() {
+function SiteTitileComponent() {
     const desc = "شروع به جستجوی بهترین فرصت‌های شغلی که به زندگی شما تغییر می‌دهد، از اینجا در مناطق انتخابی خود با راحتی شروع کنید و به سرعت استخدام شوید";
     const title = "جستجو کنید، درخواست بدهید و شغل رویایی خود را بگیرید";
 
@@ -41,3 +41,5 @@ export default function SiteTitileComponent() {
         </div>
     )
 }
+
+export default memo(SiteTitileComponent);

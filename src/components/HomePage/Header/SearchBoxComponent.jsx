@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { BiSearchAlt } from 'react-icons/bi'
 import { MdOutlineMyLocation } from 'react-icons/md'
 
-export default function SearchBoxComponent() {
+function SearchBoxComponent() {
     return (
         <div className='searchBox d-flex mt-30'>
             <div className='search-job position-relative w-40'>
@@ -23,3 +23,6 @@ export default function SearchBoxComponent() {
         </div>
     )
 }
+
+
+export default  memo(SearchBoxComponent);
